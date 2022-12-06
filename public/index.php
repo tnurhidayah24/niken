@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="assets/css/style.css">
 	</head>
 	<body>
-		<h1>Hello World</h1>
+		<div class="container mx-auto max-w-7xl">
+			<?php include('inc/Navbar.php') ?>
+		</div>
 	</body>
 </html>
