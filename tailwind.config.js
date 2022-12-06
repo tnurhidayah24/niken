@@ -4,5 +4,5 @@ content: ['./public/**/*.{html,js,php}'],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
