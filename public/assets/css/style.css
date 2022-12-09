@@ -2583,10 +2583,6 @@ html {
   align-items: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
 .gap-4 {
   gap: 1rem;
 }
@@ -2602,10 +2598,6 @@ html {
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.rounded {
-  border-radius: 0.25rem;
 }
 
 .bg-slate-700 {
@@ -2652,10 +2644,6 @@ html {
           background-clip: text;
 }
 
-.fill-current {
-  fill: currentColor;
-}
-
 .p-2 {
   padding: 0.5rem;
 }
@@ -2677,6 +2665,10 @@ html {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-5xl {

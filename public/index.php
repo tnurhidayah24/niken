@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Niken</title>
 		<link rel="stylesheet" href="assets/css/style.css">
+		<script src="../node_modules/alpinejs/dist/cdn.min.js"></script>
 	</head>
 	<body>
 		<header>
@@ -29,9 +30,11 @@
 					</div>
 				</div>
 			</section>
-			<footer>
-
-			</footer>
 		</main>
+		<footer>
+			<div class=" container text-center">
+				Copyright © <span x-text="new Date().getFullYear()"></span>
+			</div>
+		</footer>
 	</body>
 </html>

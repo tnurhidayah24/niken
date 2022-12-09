@@ -6,6 +6,7 @@
     "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/assets/css/style.css --watch"
   },
   "dependencies": {
+    "alpinejs": "^3.10.5",
     "daisyui": "^2.42.1"
   }
 }
