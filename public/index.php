@@ -5,6 +5,7 @@
 		<title>Niken</title>
 		<link rel="stylesheet" href="assets/css/style.css">
 		<script src="../node_modules/alpinejs/dist/cdn.min.js"></script>
+		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
 	</head>
 	<body>
 		<header>
