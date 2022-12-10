@@ -4,8 +4,10 @@
 		<meta charset="utf-8">
 		<title>Niken</title>
 		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
 		<script src="../node_modules/alpinejs/dist/cdn.min.js"></script>
 		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
 	</head>
 	<body>
 		<header>
@@ -31,9 +33,52 @@
 					</div>
 				</div>
 			</section>
+			<section class=" h-fit pt-6 pb-6">
+				<div class=" max-w-7xl mx-auto">
+					<div class="owl-carousel partner owl-theme">
+						<div> 
+							<img src="assets/img/partner/cargill-g.svg" alt="">
+						</div>
+						<div> 
+							<img src="assets/img/partner/chase-g.svg" alt="">
+						</div>
+						<div> 
+							<img src="assets/img/partner/cocacola-g.svg" alt="">
+						</div>
+						<div> 
+							<img src="assets/img/partner/google-g.svg" alt="">
+						</div>
+						<div> 
+							<img src="assets/img/partner/ibuild-g.svg" alt="">
+						</div>
+						<div> 
+							<img src="assets/img/partner/indeed-g.svg" alt="">
+						</div>
+						<div> 
+							<img src="assets/img/partner/microsoft-g.svg" alt="">
+						</div>
+						<div> 
+							<img src="assets/img/partner/pentel-g.svg" alt="">
+						</div>
+						<div> 
+							<img src="assets/img/partner/provert-g.svg" alt="">
+						</div>
+						<div> 
+							<img src="assets/img/partner/seguros-g.svg" alt="">
+						</div>
+						<div> 
+							<img src="assets/img/partner/slack-g.svg" alt="">
+						</div>
+						<div> 
+							<img src="assets/img/partner/walmart-g.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer p-10 text-base-content max-w-7xl mx-auto">
 			<?php include('inc/Footer.php')?>
 		</footer>
+		<script src="assets/js/app.js"></script>
 	</body>
 </html>

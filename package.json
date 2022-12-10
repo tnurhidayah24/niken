@@ -8,6 +8,7 @@
   "dependencies": {
     "alpinejs": "^3.10.5",
     "daisyui": "^2.42.1",
-    "jquery": "^3.6.1"
+    "jquery": "^3.6.1",
+    "owl.carousel": "^2.3.4"
   }
 }
